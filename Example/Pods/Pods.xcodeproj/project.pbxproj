@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0077D1BC7B5133CBBCB24328128070E1 /* SJPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C5BEEE92CD22C18624BC88D3E59F0 /* SJPopMenu.m */; };
+		0A71133651A11A7C4C18CC8F33DC52A6 /* SJPopMenuArrow.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EC7DD52DC68BB422624712CD5729ED /* SJPopMenuArrow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7E2902AAF795ECE2333AFDD60473D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		163BD9DB2215B9313288E061BB3C7C63 /* Pods-SJPopMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D43B40430475F6947F6D279243494070 /* Pods-SJPopMenu_Example-dummy.m */; };
+		1CD24556CD7B0B8838A959EF3C776AA4 /* SJCustomSelectTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE32E5BBBE8D9231B136CB6E2C1402D /* SJCustomSelectTextView.m */; };
 		1F8A2215DE5247A604176D0FAD542376 /* Pods-SJPopMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C830823A02C3E95DD5A5F2F1202FB7 /* Pods-SJPopMenu_Tests-dummy.m */; };
+		2284893F08207614F8EC9E0F65335A9B /* SJPopMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D662A10934E7CC2CEB7A5CDF3EAD91 /* SJPopMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A7D0330E8115761996DC0D19FDD044D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		512350936F72DA214F3149C90B4E8D39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		643326391A72BCEEF75727336DB1C229 /* SJPopMenuArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 07014DE80B6B87844CA79CCE794CE434 /* SJPopMenuArrow.m */; };
 		8CF8B658F2CFFF4E37EFD3903EF801BC /* Pods-SJPopMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F53199BCB1D1E907E1266F7121A8487 /* Pods-SJPopMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AFCB42F3E6238EBA68A9F39587BF532 /* Pods-SJPopMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82ABB5756448644443EDC1EDEA02854E /* Pods-SJPopMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8ECE01BCF6094BAAE809C1FDDC24E14 /* SJPopMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF35C1A9FD9A91914CFE1C4464929CB /* SJPopMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8D7A6DED7994C606B26C3313BA39F81 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B22442AE659FD9EAE7DA4E2441453A /* ReplaceMe.m */; };
+		A1825DE10021005730EE0B5FC6DDC569 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC2CE6133DEC7D4460E5DAC5E5EEC3 /* UIColor+Hex.m */; };
+		AC3D4F73BA98F91ACCD03AACA99AC648 /* SJPopMenuCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEEFF81C93784772D4608AF3D70FE06 /* SJPopMenuCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB40306157B3FD32934169145258052 /* SJKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B5D136E39F8BCC142F2A30E8059E3E /* SJKeyboardManager.m */; };
+		C22AE2873DCCEFD4BF6943942BAD31EB /* SJPopMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A06550DFD4F47D3BB3730BFF67266 /* SJPopMenu-dummy.m */; };
 		C83B382590137E52A13B766E436D8C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D109746EB8FC9547639F75F14E93613C /* SJPopMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB131CED9CF84033603F11560783F32 /* SJPopMenu-dummy.m */; };
+		E2A6F5258BFE72AA8D2F615F096DDAC4 /* SJKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CCBB7E967C72F2D74B946704551ABE /* SJKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8BA26C26E3F253BBB9376B1F02A7FAE /* SJCustomSelectTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6F41EF798C0A2E4151BD871AFE4C20 /* SJCustomSelectTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7E70C9665356853BA4FA4C52EB4691 /* SJPopMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8011105CB686373B79154D32B536E3 /* SJPopMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F877352B1EEC82EB4DE941EE354701 /* SJPopMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A8B41B5F094FB3040A8DC93E5F78E6 /* SJPopMenuCollectionViewCell.m */; };
+		FEEFBE449D8943F660A349D07F3C49EC /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7190C76789EB49CCFA361A9544F6C908 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		009B39FAC625ECF43B1765CBADF2D474 /* PBXContainerItemProxy */ = {
+		3CF648804B196B68BD22D167034AF101 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B52E3CB4769606DDB1F91F5D9401906D;
 			remoteInfo = "Pods-SJPopMenu_Example";
 		};
-		291BB0FA7DB90108227DEE083A2BE9FA /* PBXContainerItemProxy */ = {
+		FA203CDA97F396725BA4DF56B30E841C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,55 +48,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BEFEB799CC1BE6594A92E1C279FC1B1 /* SJPopMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJPopMenu.debug.xcconfig; sourceTree = "<group>"; };
-		14F0F63499BA726D3B02D8986ECA7D6F /* SJPopMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJPopMenu.release.xcconfig; sourceTree = "<group>"; };
+		07014DE80B6B87844CA79CCE794CE434 /* SJPopMenuArrow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPopMenuArrow.m; path = SJPopMenu/Classes/SJPopMenuArrow.m; sourceTree = "<group>"; };
 		1A63FFD64089BBD5B973F6E1CFF9052E /* Pods-SJPopMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJPopMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1B8AC023E3FE3DECA564887CC7615873 /* SJPopMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SJPopMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		208B45EDACEFFC099BBAAE1E184D42CC /* Pods-SJPopMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SJPopMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		34AEF0159B2E4844FD0212F9340726CB /* SJPopMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SJPopMenu-Info.plist"; sourceTree = "<group>"; };
+		242BD1D802DB464E8C65EB21CF9DEA48 /* SJPopMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SJPopMenu.modulemap; sourceTree = "<group>"; };
+		3179E8829C7F49EE32B50B9E029F921F /* SJPopMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJPopMenu.release.xcconfig; sourceTree = "<group>"; };
 		36AC57E697A7754E6D0E0E43FA1ED7FA /* Pods-SJPopMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJPopMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A36B4CC65757310908E7DD869FDE0AA /* Pods-SJPopMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SJPopMenu_Tests.modulemap"; sourceTree = "<group>"; };
-		45B22442AE659FD9EAE7DA4E2441453A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SJPopMenu/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		4D15548FAA7348585ACBB7E24488C2F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		41CCBB7E967C72F2D74B946704551ABE /* SJKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJKeyboardManager.h; path = SJPopMenu/Classes/SJKeyboardManager.h; sourceTree = "<group>"; };
+		46F463B2EA95CE89799F0D12D0A58A49 /* SJPopMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SJPopMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52AFF83A9B32D35173A63632BA5515CC /* Pods-SJPopMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJPopMenu_Example-Info.plist"; sourceTree = "<group>"; };
+		55EC7DD52DC68BB422624712CD5729ED /* SJPopMenuArrow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPopMenuArrow.h; path = SJPopMenu/Classes/SJPopMenuArrow.h; sourceTree = "<group>"; };
+		5BE32E5BBBE8D9231B136CB6E2C1402D /* SJCustomSelectTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJCustomSelectTextView.m; path = SJPopMenu/Classes/SJCustomSelectTextView.m; sourceTree = "<group>"; };
 		5C484325F0AD403CF1CEE7510E343FD7 /* Pods-SJPopMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJPopMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		61323F8E06A6AE7D07CCE5CA3C6C642D /* Pods-SJPopMenu_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SJPopMenu_Tests"; path = Pods_SJPopMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6392C8504E4853EC374982407AE5A7EE /* Pods-SJPopMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJPopMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6ADC2CE6133DEC7D4460E5DAC5E5EEC3 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "SJPopMenu/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
+		7190C76789EB49CCFA361A9544F6C908 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "SJPopMenu/Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73E740181C8051B2512483B8C410369D /* Pods-SJPopMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SJPopMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75D662A10934E7CC2CEB7A5CDF3EAD91 /* SJPopMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJPopMenu-umbrella.h"; sourceTree = "<group>"; };
 		79EACC8F749612514AFA65E9218439F9 /* Pods-SJPopMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJPopMenu_Tests-Info.plist"; sourceTree = "<group>"; };
+		8164F0D6A16DB7E98BAFD6A3740C709B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		82ABB5756448644443EDC1EDEA02854E /* Pods-SJPopMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SJPopMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		864A06550DFD4F47D3BB3730BFF67266 /* SJPopMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SJPopMenu-dummy.m"; sourceTree = "<group>"; };
 		894848A77CD3E0330661198C59163370 /* Pods-SJPopMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJPopMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8EB131CED9CF84033603F11560783F32 /* SJPopMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SJPopMenu-dummy.m"; sourceTree = "<group>"; };
-		94056F6439FC72FA7731118A2D40F48F /* SJPopMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJPopMenu-prefix.pch"; sourceTree = "<group>"; };
+		92A8B41B5F094FB3040A8DC93E5F78E6 /* SJPopMenuCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPopMenuCollectionViewCell.m; path = SJPopMenu/Classes/SJPopMenuCollectionViewCell.m; sourceTree = "<group>"; };
+		9B8011105CB686373B79154D32B536E3 /* SJPopMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPopMenu.h; path = SJPopMenu/Classes/SJPopMenu.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F53199BCB1D1E907E1266F7121A8487 /* Pods-SJPopMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SJPopMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A1C023D9D9FA8160D1A6AE2399543E27 /* Pods-SJPopMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJPopMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD7C8150D65C18D80024E792D1078C22 /* SJPopMenu */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SJPopMenu; path = SJPopMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEB3990551894BCC1CC6B75A9133D55 /* Pods-SJPopMenu_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SJPopMenu_Example"; path = Pods_SJPopMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEEFF81C93784772D4608AF3D70FE06 /* SJPopMenuCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPopMenuCollectionViewCell.h; path = SJPopMenu/Classes/SJPopMenuCollectionViewCell.h; sourceTree = "<group>"; };
+		C8B5D136E39F8BCC142F2A30E8059E3E /* SJKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJKeyboardManager.m; path = SJPopMenu/Classes/SJKeyboardManager.m; sourceTree = "<group>"; };
+		CC3C5BEEE92CD22C18624BC88D3E59F0 /* SJPopMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPopMenu.m; path = SJPopMenu/Classes/SJPopMenu.m; sourceTree = "<group>"; };
 		D1C830823A02C3E95DD5A5F2F1202FB7 /* Pods-SJPopMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SJPopMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		D1CA06348EF45E9C95A6E62A76CF17EE /* SJPopMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJPopMenu-prefix.pch"; sourceTree = "<group>"; };
 		D3528B1EAE75CD51265B8EFFF8D6ED7C /* Pods-SJPopMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SJPopMenu_Example.modulemap"; sourceTree = "<group>"; };
 		D43B40430475F6947F6D279243494070 /* Pods-SJPopMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SJPopMenu_Example-dummy.m"; sourceTree = "<group>"; };
 		D64FB5770297FACA6EE326499ACD2B26 /* Pods-SJPopMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJPopMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCF35C1A9FD9A91914CFE1C4464929CB /* SJPopMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJPopMenu-umbrella.h"; sourceTree = "<group>"; };
-		E6F4DBFFC7AB6AD07ED145523F1E492F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FFBEC84A836CAA4072909A82E14381B1 /* SJPopMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SJPopMenu.modulemap; sourceTree = "<group>"; };
+		DF6F41EF798C0A2E4151BD871AFE4C20 /* SJCustomSelectTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJCustomSelectTextView.h; path = SJPopMenu/Classes/SJCustomSelectTextView.h; sourceTree = "<group>"; };
+		E42E5B549B5F3F32641AF8DBCA87D6F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E990B7040FAF0D595CE44A82A27FBAD4 /* SJPopMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SJPopMenu-Info.plist"; sourceTree = "<group>"; };
+		F198D5FC7FAA93CAA832A0A0CE152FD1 /* SJPopMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJPopMenu.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D23D469B7372D6BC77F8AB5DE772AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7E2902AAF795ECE2333AFDD60473D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A12D112DC26900ABBF050C3E70C3701 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C83B382590137E52A13B766E436D8C68 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE08B62A0EA7BBC08CC4530C56F408A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				512350936F72DA214F3149C90B4E8D39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,26 +149,16 @@
 			path = "Target Support Files/Pods-SJPopMenu_Example";
 			sourceTree = "<group>";
 		};
-		35B0E43BD0118CD8B914759E8AD6ACBF /* Pod */ = {
+		4D56F6B56CD62637A990295AF0ECF560 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D15548FAA7348585ACBB7E24488C2F1 /* LICENSE */,
-				E6F4DBFFC7AB6AD07ED145523F1E492F /* README.md */,
-				1B8AC023E3FE3DECA564887CC7615873 /* SJPopMenu.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3D0AD76FCF282C899CF241287F77363F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FFBEC84A836CAA4072909A82E14381B1 /* SJPopMenu.modulemap */,
-				8EB131CED9CF84033603F11560783F32 /* SJPopMenu-dummy.m */,
-				34AEF0159B2E4844FD0212F9340726CB /* SJPopMenu-Info.plist */,
-				94056F6439FC72FA7731118A2D40F48F /* SJPopMenu-prefix.pch */,
-				DCF35C1A9FD9A91914CFE1C4464929CB /* SJPopMenu-umbrella.h */,
-				0BEFEB799CC1BE6594A92E1C279FC1B1 /* SJPopMenu.debug.xcconfig */,
-				14F0F63499BA726D3B02D8986ECA7D6F /* SJPopMenu.release.xcconfig */,
+				242BD1D802DB464E8C65EB21CF9DEA48 /* SJPopMenu.modulemap */,
+				864A06550DFD4F47D3BB3730BFF67266 /* SJPopMenu-dummy.m */,
+				E990B7040FAF0D595CE44A82A27FBAD4 /* SJPopMenu-Info.plist */,
+				D1CA06348EF45E9C95A6E62A76CF17EE /* SJPopMenu-prefix.pch */,
+				75D662A10934E7CC2CEB7A5CDF3EAD91 /* SJPopMenu-umbrella.h */,
+				F198D5FC7FAA93CAA832A0A0CE152FD1 /* SJPopMenu.debug.xcconfig */,
+				3179E8829C7F49EE32B50B9E029F921F /* SJPopMenu.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SJPopMenu";
@@ -176,12 +188,26 @@
 			path = "Target Support Files/Pods-SJPopMenu_Tests";
 			sourceTree = "<group>";
 		};
-		9265777CFE416C6100155126E57E4E47 /* Development Pods */ = {
+		A4FBCBCEDBF576DDF27BF2FDEDB5F611 /* SJPopMenu */ = {
 			isa = PBXGroup;
 			children = (
-				D8040307F0674BC35C8F846D6CAF9F18 /* SJPopMenu */,
+				DF6F41EF798C0A2E4151BD871AFE4C20 /* SJCustomSelectTextView.h */,
+				5BE32E5BBBE8D9231B136CB6E2C1402D /* SJCustomSelectTextView.m */,
+				41CCBB7E967C72F2D74B946704551ABE /* SJKeyboardManager.h */,
+				C8B5D136E39F8BCC142F2A30E8059E3E /* SJKeyboardManager.m */,
+				9B8011105CB686373B79154D32B536E3 /* SJPopMenu.h */,
+				CC3C5BEEE92CD22C18624BC88D3E59F0 /* SJPopMenu.m */,
+				55EC7DD52DC68BB422624712CD5729ED /* SJPopMenuArrow.h */,
+				07014DE80B6B87844CA79CCE794CE434 /* SJPopMenuArrow.m */,
+				BEEEFF81C93784772D4608AF3D70FE06 /* SJPopMenuCollectionViewCell.h */,
+				92A8B41B5F094FB3040A8DC93E5F78E6 /* SJPopMenuCollectionViewCell.m */,
+				7190C76789EB49CCFA361A9544F6C908 /* UIColor+Hex.h */,
+				6ADC2CE6133DEC7D4460E5DAC5E5EEC3 /* UIColor+Hex.m */,
+				CE11B7156315F0D1B717385FEC56FC08 /* Pod */,
+				4D56F6B56CD62637A990295AF0ECF560 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = SJPopMenu;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B7C0C3218AF19BA91B68644941E91879 /* Targets Support Files */ = {
@@ -193,15 +219,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CE11B7156315F0D1B717385FEC56FC08 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8164F0D6A16DB7E98BAFD6A3740C709B /* LICENSE */,
+				E42E5B549B5F3F32641AF8DBCA87D6F0 /* README.md */,
+				46F463B2EA95CE89799F0D12D0A58A49 /* SJPopMenu.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9265777CFE416C6100155126E57E4E47 /* Development Pods */,
+				D0B18572D80BF7405A0F8890D8392A40 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				22F04C39ECF6094CB79FE5D324155A33 /* Products */,
 				B7C0C3218AF19BA91B68644941E91879 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0B18572D80BF7405A0F8890D8392A40 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBCBCEDBF576DDF27BF2FDEDB5F611 /* SJPopMenu */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -212,25 +256,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8040307F0674BC35C8F846D6CAF9F18 /* SJPopMenu */ = {
-			isa = PBXGroup;
-			children = (
-				45B22442AE659FD9EAE7DA4E2441453A /* ReplaceMe.m */,
-				35B0E43BD0118CD8B914759E8AD6ACBF /* Pod */,
-				3D0AD76FCF282C899CF241287F77363F /* Support Files */,
-			);
-			name = SJPopMenu;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A057370358464BF065AB8169D4B63C9 /* Headers */ = {
+		69BB1A223C6F1A4E9BC401727F5619BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8ECE01BCF6094BAAE809C1FDDC24E14 /* SJPopMenu-umbrella.h in Headers */,
+				E8BA26C26E3F253BBB9376B1F02A7FAE /* SJCustomSelectTextView.h in Headers */,
+				E2A6F5258BFE72AA8D2F615F096DDAC4 /* SJKeyboardManager.h in Headers */,
+				EA7E70C9665356853BA4FA4C52EB4691 /* SJPopMenu.h in Headers */,
+				2284893F08207614F8EC9E0F65335A9B /* SJPopMenu-umbrella.h in Headers */,
+				0A71133651A11A7C4C18CC8F33DC52A6 /* SJPopMenuArrow.h in Headers */,
+				AC3D4F73BA98F91ACCD03AACA99AC648 /* SJPopMenuCollectionViewCell.h in Headers */,
+				FEEFBE449D8943F660A349D07F3C49EC /* UIColor+Hex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +294,12 @@
 /* Begin PBXNativeTarget section */
 		2ADCFC275F4BDF563DC7A72A1E6A1880 /* SJPopMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE2E733F89BEEDE785CC45753BBF1779 /* Build configuration list for PBXNativeTarget "SJPopMenu" */;
+			buildConfigurationList = 6B09F26DA947FEF749C63B4C1B0BAA89 /* Build configuration list for PBXNativeTarget "SJPopMenu" */;
 			buildPhases = (
-				2A057370358464BF065AB8169D4B63C9 /* Headers */,
-				1C95A1DFC29AAFF5E9EFE2F3A5214D35 /* Sources */,
-				DE08B62A0EA7BBC08CC4530C56F408A5 /* Frameworks */,
-				789BDEDDE6BA9DE0AE671FAD73C968A6 /* Resources */,
+				69BB1A223C6F1A4E9BC401727F5619BD /* Headers */,
+				017D2B1BA0A1AC5D2EC3B1FA8B0B18E1 /* Sources */,
+				1D23D469B7372D6BC77F8AB5DE772AEF /* Frameworks */,
+				AA4364264383107F7908C411BA2B06B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +322,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2FBD03CF0C5713488B83EE3E6DEBC2BC /* PBXTargetDependency */,
+				54BDD96A5BBF4B04C8917A61C5589D0E /* PBXTargetDependency */,
 			);
 			name = "Pods-SJPopMenu_Example";
 			productName = Pods_SJPopMenu_Example;
@@ -302,7 +341,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				429EABD0A5677B5B653CE4D81962D439 /* PBXTargetDependency */,
+				4198AAEBC26586C634B03AD48B74FB9A /* PBXTargetDependency */,
 			);
 			name = "Pods-SJPopMenu_Tests";
 			productName = Pods_SJPopMenu_Tests;
@@ -353,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		789BDEDDE6BA9DE0AE671FAD73C968A6 /* Resources */ = {
+		AA4364264383107F7908C411BA2B06B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +402,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C95A1DFC29AAFF5E9EFE2F3A5214D35 /* Sources */ = {
+		017D2B1BA0A1AC5D2EC3B1FA8B0B18E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D7A6DED7994C606B26C3313BA39F81 /* ReplaceMe.m in Sources */,
-				D109746EB8FC9547639F75F14E93613C /* SJPopMenu-dummy.m in Sources */,
+				1CD24556CD7B0B8838A959EF3C776AA4 /* SJCustomSelectTextView.m in Sources */,
+				AEB40306157B3FD32934169145258052 /* SJKeyboardManager.m in Sources */,
+				0077D1BC7B5133CBBCB24328128070E1 /* SJPopMenu.m in Sources */,
+				C22AE2873DCCEFD4BF6943942BAD31EB /* SJPopMenu-dummy.m in Sources */,
+				643326391A72BCEEF75727336DB1C229 /* SJPopMenuArrow.m in Sources */,
+				F8F877352B1EEC82EB4DE941EE354701 /* SJPopMenuCollectionViewCell.m in Sources */,
+				A1825DE10021005730EE0B5FC6DDC569 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +435,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FBD03CF0C5713488B83EE3E6DEBC2BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SJPopMenu;
-			target = 2ADCFC275F4BDF563DC7A72A1E6A1880 /* SJPopMenu */;
-			targetProxy = 291BB0FA7DB90108227DEE083A2BE9FA /* PBXContainerItemProxy */;
-		};
-		429EABD0A5677B5B653CE4D81962D439 /* PBXTargetDependency */ = {
+		4198AAEBC26586C634B03AD48B74FB9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SJPopMenu_Example";
 			target = B52E3CB4769606DDB1F91F5D9401906D /* Pods-SJPopMenu_Example */;
-			targetProxy = 009B39FAC625ECF43B1765CBADF2D474 /* PBXContainerItemProxy */;
+			targetProxy = 3CF648804B196B68BD22D167034AF101 /* PBXContainerItemProxy */;
+		};
+		54BDD96A5BBF4B04C8917A61C5589D0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SJPopMenu;
+			target = 2ADCFC275F4BDF563DC7A72A1E6A1880 /* SJPopMenu */;
+			targetProxy = FA203CDA97F396725BA4DF56B30E841C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,6 +517,37 @@
 			};
 			name = Release;
 		};
+		4498E2C3F6449FE3AA49084C040C16F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F198D5FC7FAA93CAA832A0A0CE152FD1 /* SJPopMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJPopMenu/SJPopMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJPopMenu/SJPopMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SJPopMenu/SJPopMenu.modulemap";
+				PRODUCT_MODULE_NAME = SJPopMenu;
+				PRODUCT_NAME = SJPopMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		527B8A1574D2E0E241EFBDA17B32FB43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6392C8504E4853EC374982407AE5A7EE /* Pods-SJPopMenu_Tests.release.xcconfig */;
@@ -540,38 +615,6 @@
 			};
 			name = Debug;
 		};
-		6B473C1ABB2D55295815DCC87CD19D7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14F0F63499BA726D3B02D8986ECA7D6F /* SJPopMenu.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SJPopMenu/SJPopMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SJPopMenu/SJPopMenu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SJPopMenu/SJPopMenu.modulemap";
-				PRODUCT_MODULE_NAME = SJPopMenu;
-				PRODUCT_NAME = SJPopMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -634,9 +677,9 @@
 			};
 			name = Release;
 		};
-		AD978C153214F9DF2B90146285B1BED7 /* Debug */ = {
+		9C53740525FD9132455B71752FEE1271 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BEFEB799CC1BE6594A92E1C279FC1B1 /* SJPopMenu.debug.xcconfig */;
+			baseConfigurationReference = 3179E8829C7F49EE32B50B9E029F921F /* SJPopMenu.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -660,10 +703,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -761,11 +805,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE2E733F89BEEDE785CC45753BBF1779 /* Build configuration list for PBXNativeTarget "SJPopMenu" */ = {
+		6B09F26DA947FEF749C63B4C1B0BAA89 /* Build configuration list for PBXNativeTarget "SJPopMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD978C153214F9DF2B90146285B1BED7 /* Debug */,
-				6B473C1ABB2D55295815DCC87CD19D7C /* Release */,
+				4498E2C3F6449FE3AA49084C040C16F7 /* Debug */,
+				9C53740525FD9132455B71752FEE1271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

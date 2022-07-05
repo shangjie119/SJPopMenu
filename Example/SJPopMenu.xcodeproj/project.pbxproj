@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2676D55BE20B3AA5391EFC02 /* Pods_SJPopMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6335892589B94AC1DC05B675 /* Pods_SJPopMenu_Example.framework */; };
+		33257E0A2874179800457CA0 /* SJChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33257E072874179800457CA0 /* SJChatTableViewCell.m */; };
+		33257E0B2874179800457CA0 /* SJChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33257E092874179800457CA0 /* SJChatTableViewCell.xib */; };
 		33D68CCFC23B394A372C1149 /* Pods_SJPopMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE381FB61AA6156AA2D4561C /* Pods_SJPopMenu_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +41,10 @@
 /* Begin PBXFileReference section */
 		186754A51E269456E6394B26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2768AB80ABDA3D7872E71F7E /* Pods-SJPopMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPopMenu_Example.release.xcconfig"; path = "Target Support Files/Pods-SJPopMenu_Example/Pods-SJPopMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		33257E062874175500457CA0 /* SJPopMenu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SJPopMenu.gif; sourceTree = "<group>"; };
+		33257E072874179800457CA0 /* SJChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJChatTableViewCell.m; sourceTree = "<group>"; };
+		33257E082874179800457CA0 /* SJChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJChatTableViewCell.h; sourceTree = "<group>"; };
+		33257E092874179800457CA0 /* SJChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJChatTableViewCell.xib; sourceTree = "<group>"; };
 		3791774B8E32FFE0780A8B21 /* Pods-SJPopMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPopMenu_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SJPopMenu_Tests/Pods-SJPopMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SJPopMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJPopMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SJViewController.h */,
 				6003F5A6195388D20070C39A /* SJViewController.m */,
+				33257E082874179800457CA0 /* SJChatTableViewCell.h */,
+				33257E072874179800457CA0 /* SJChatTableViewCell.m */,
+				33257E092874179800457CA0 /* SJChatTableViewCell.xib */,
+				33257E062874175500457CA0 /* SJPopMenu.gif */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -278,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				33257E0B2874179800457CA0 /* SJChatTableViewCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -364,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33257E0A2874179800457CA0 /* SJChatTableViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* SJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

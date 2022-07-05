@@ -3,20 +3,20 @@
   "version": "0.1.0",
   "summary": "A short description of SJPopMenu.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sj/SJPopMenu",
+  "homepage": "https://github.com/shangjie119/SJPopMenu.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sj": "shangjie@dogesoft.cn"
+    "shangjie119": "494948246@qq.com"
   },
   "source": {
-    "git": "https://github.com/sj/SJPopMenu.git",
+    "git": "https://github.com/shangjie119/SJPopMenu.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SJPopMenu/Classes/**/*"
+  "source_files": "SJPopMenu/Classes"
 }
