@@ -1,0 +1,16 @@
+PODS:
+  - SJPopMenu (0.1.0)
+
+DEPENDENCIES:
+  - SJPopMenu (from `../`)
+
+EXTERNAL SOURCES:
+  SJPopMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SJPopMenu: 5712985d70508eeaec02f2f8e66773a330393e67
+
+PODFILE CHECKSUM: 1d1c36c4aa18e89ba6a2da011cdff3382f2bbe9e
+
+COCOAPODS: 1.11.2
