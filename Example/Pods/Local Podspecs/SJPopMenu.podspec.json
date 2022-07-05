@@ -21,7 +21,7 @@
   "source_files": "SJPopMenu/Classes/*",
   "resource_bundles": {
     "SJPopMenuImg": [
-      "SJPopMenu/Assets/*.png"
+      "SJPopMenu/Assets/*"
     ]
   }
 }

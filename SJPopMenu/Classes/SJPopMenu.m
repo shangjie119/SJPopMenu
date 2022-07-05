@@ -533,76 +533,77 @@ static SJPopMenu *menu = nil;
 {
     SJPopMenuItem *item = [[SJPopMenuItem alloc] init];
     item.itemType = type;
-
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"/SJPopMenuImg.bundle"];
+    NSBundle *resourceBundle = [NSBundle bundleWithPath:bundlePath];
     switch (type) {
         case SJPopMenuItemMutePlay: {
             item.title = @"静音播放";
-//            item.image = @"popmenu_mutePlay";
+            item.image = [UIImage imageNamed:@"popmenu_mutePlay" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemCopy: {
             item.title = @"复制";
-//            item.image = @"popmenu_copy";
+            item.image = [UIImage imageNamed:@"popmenu_copy" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemWithdraw: {
             item.title = @"撤回";
-//            item.image = @"popmenu_withdraw";
+            item.image = [UIImage imageNamed:@"popmenu_withdraw" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemDelete: {
             item.title = @"删除";
-//            item.image = @"popmenu_delete";
+            item.image = [UIImage imageNamed:@"popmenu_delete" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemForwarding: {
             item.title = @"转发";
-//            item.image = @"popmenu_forwarding";
+            item.image = [UIImage imageNamed:@"popmenu_forwarding" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemTranslate: {
             item.title = @"翻译";
-//            item.image = @"popmenu_translate";
+            item.image = [UIImage imageNamed:@"popmenu_translate" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemQuote: {
             item.title = @"引用";
-//            item.image = @"popmenu_quote";
+            item.image = [UIImage imageNamed:@"popmenu_quote" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemSave: {
             item.title = @"保存";
-//            item.image = @"popmenu_save";
+            item.image = [UIImage imageNamed:@"popmenu_save" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemDownload: {
             item.title = @"下载";
-//            item.image = @"popmenu_download";
+            item.image = [UIImage imageNamed:@"popmenu_download" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemMultipleChoice: {
             item.title = @"多选";
-//            item.image = @"popmenu_multipleChoice";
+            item.image = [UIImage imageNamed:@"popmenu_multipleChoice" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemPackUp: {
             item.title = @"收起";
-//            item.image = @"popmenu_packUp";
+            item.image = [UIImage imageNamed:@"popmenu_packUp" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemRetranslation: {
             item.title = @"重译";
-//            item.image = @"popmenu_retranslation";
+            item.image = [UIImage imageNamed:@"popmenu_retranslation" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemSelectAll: {
             item.title = @"全选";
-//            item.image = @"popmenu_selectAll";
+            item.image = [UIImage imageNamed:@"popmenu_selectAll" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
         case SJPopMenuItemRemind : {
             item.title = @"提醒";
-//            item.image = @"popmenu_remind";
+            item.image = [UIImage imageNamed:@"popmenu_remind" inBundle:resourceBundle compatibleWithTraitCollection:nil];
             break;
         }
     }

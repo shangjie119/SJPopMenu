@@ -31,10 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SJPopMenu/Classes/*'
-  #s.source_files = 'SJPopMenu/Classes/*.xib'
   
   s.resource_bundles = {
-    'SJPopMenuImg' => ['SJPopMenu/Assets/*.png']
+    'SJPopMenuImg' => ['SJPopMenu/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
