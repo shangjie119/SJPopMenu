@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SJPopMenu/Classes"
+  "source_files": "SJPopMenu/Classes/*",
+  "resource_bundles": {
+    "SJPopMenuImg": [
+      "SJPopMenu/Assets/*.png"
+    ]
+  }
 }

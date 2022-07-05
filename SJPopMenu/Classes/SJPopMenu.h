@@ -65,9 +65,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)itemWithType:(SJPopMenuItemType)type;
 
-+ (instancetype)itemWithType:(SJPopMenuItemType)type title:(NSString *)title image:(NSString *)image;
++ (instancetype)itemWithType:(SJPopMenuItemType)type title:(NSString *)title image:(UIImage *)image;
 
-+ (instancetype)itemWithTitle:(NSString *)title image:(NSString *)image;
++ (instancetype)itemWithTitle:(NSString *)title image:(UIImage *)image;
 
 @property (nonatomic, assign) SJPopMenuItemType itemType;
 
@@ -75,7 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *title;
 
-@property (nonatomic, copy) NSString *image;
+@property (nonatomic, strong) UIImage *image;
 
 @end
 

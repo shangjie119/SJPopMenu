@@ -288,7 +288,7 @@ static SJPopMenu *menu = nil;
         if (@available(iOS 11, *)) {
             _collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
-        [_collectionView registerNib:[UINib nibWithNibName:@"SJPopMenuCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"SJPopMenuCollectionViewCell"];
+        [_collectionView registerNib:[UINib nibWithNibName:@"SJPopMenuCollectionViewCell" bundle:[NSBundle bundleForClass:[SJPopMenuCollectionViewCell class]]] forCellWithReuseIdentifier:@"SJPopMenuCollectionViewCell"];
     }
     return _collectionView;
 }
@@ -520,7 +520,7 @@ static SJPopMenu *menu = nil;
 
 @implementation SJPopMenuItem
 
-+ (instancetype)itemWithType:(SJPopMenuItemType)type title:(NSString *)title image:(NSString *)image
++ (instancetype)itemWithType:(SJPopMenuItemType)type title:(NSString *)title image:(UIImage *)image
 {
     SJPopMenuItem *item = [[SJPopMenuItem alloc] init];
     item.itemType = type;
@@ -533,82 +533,83 @@ static SJPopMenu *menu = nil;
 {
     SJPopMenuItem *item = [[SJPopMenuItem alloc] init];
     item.itemType = type;
+
     switch (type) {
         case SJPopMenuItemMutePlay: {
             item.title = @"静音播放";
-            item.image = @"popmenu_mutePlay";
+//            item.image = @"popmenu_mutePlay";
             break;
         }
         case SJPopMenuItemCopy: {
             item.title = @"复制";
-            item.image = @"popmenu_copy";
+//            item.image = @"popmenu_copy";
             break;
         }
         case SJPopMenuItemWithdraw: {
             item.title = @"撤回";
-            item.image = @"popmenu_withdraw";
+//            item.image = @"popmenu_withdraw";
             break;
         }
         case SJPopMenuItemDelete: {
             item.title = @"删除";
-            item.image = @"popmenu_delete";
+//            item.image = @"popmenu_delete";
             break;
         }
         case SJPopMenuItemForwarding: {
             item.title = @"转发";
-            item.image = @"popmenu_forwarding";
+//            item.image = @"popmenu_forwarding";
             break;
         }
         case SJPopMenuItemTranslate: {
             item.title = @"翻译";
-            item.image = @"popmenu_translate";
+//            item.image = @"popmenu_translate";
             break;
         }
         case SJPopMenuItemQuote: {
             item.title = @"引用";
-            item.image = @"popmenu_quote";
+//            item.image = @"popmenu_quote";
             break;
         }
         case SJPopMenuItemSave: {
             item.title = @"保存";
-            item.image = @"popmenu_save";
+//            item.image = @"popmenu_save";
             break;
         }
         case SJPopMenuItemDownload: {
             item.title = @"下载";
-            item.image = @"popmenu_download";
+//            item.image = @"popmenu_download";
             break;
         }
         case SJPopMenuItemMultipleChoice: {
             item.title = @"多选";
-            item.image = @"popmenu_multipleChoice";
+//            item.image = @"popmenu_multipleChoice";
             break;
         }
         case SJPopMenuItemPackUp: {
             item.title = @"收起";
-            item.image = @"popmenu_packUp";
+//            item.image = @"popmenu_packUp";
             break;
         }
         case SJPopMenuItemRetranslation: {
             item.title = @"重译";
-            item.image = @"popmenu_retranslation";
+//            item.image = @"popmenu_retranslation";
             break;
         }
         case SJPopMenuItemSelectAll: {
             item.title = @"全选";
-            item.image = @"popmenu_selectAll";
+//            item.image = @"popmenu_selectAll";
             break;
         }
         case SJPopMenuItemRemind : {
             item.title = @"提醒";
-            item.image = @"popmenu_remind";
+//            item.image = @"popmenu_remind";
             break;
         }
     }
     return item;
 }
 
-+ (instancetype)itemWithTitle:(NSString *)title image:(NSString *)image
++ (instancetype)itemWithTitle:(NSString *)title image:(UIImage *)image
 {
     SJPopMenuItem *item = [[SJPopMenuItem alloc] init];
     item.title = title;

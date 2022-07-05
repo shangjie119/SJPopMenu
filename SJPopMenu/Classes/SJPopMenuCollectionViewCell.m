@@ -28,7 +28,7 @@
 - (void)updateCellWithItem:(SJPopMenuItem *)item
 {
     self.menuNameLabel.text = item.title;
-    self.menuImageView.image = [UIImage imageNamed:item.image];
+    self.menuImageView.image = item.image;
     self.colorViewWidth.constant = 56;
 }
 
