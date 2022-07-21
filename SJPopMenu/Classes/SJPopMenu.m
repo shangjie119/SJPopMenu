@@ -329,20 +329,21 @@ static SJPopMenu *menu = nil;
         targetFrame.origin.y += self.startRect.origin.y;
         targetFrame.size.height = self.endRect.origin.y - self.startRect.origin.y + self.endRect.size.height;
     }
-    if (targetFrame.origin.y < 0) {
-        targetFrame.size.height = MIN(self.visibleHeight, targetFrame.origin.y + targetFrame.size.height);
-        targetFrame.origin.y = 0;
-    } else {
-        targetFrame.size.height = MIN(self.visibleHeight - targetFrame.origin.y, targetFrame.size.height);
-    }
     CGFloat menuHeight = self.menuSize.height + kStatusbarHeight;
-    if (targetFrame.origin.y < menuHeight) {
-        /// 文本特别长，menu显示在文本正中间
-        if (self.visibleHeight - targetFrame.origin.y - targetFrame.size.height < menuHeight) {
-            targetFrame.origin.y = (targetFrame.origin.y + targetFrame.size.height) / 2.0;
-        }
+    if (targetFrame.origin.y < 0) {
+        /// 先把上半部分移除
+        targetFrame.size.height += y;
+        targetFrame.origin.y = 0;
+        targetFrame.size.height = MIN(self.visibleHeight, targetFrame.size.height);
     } else {
-        targetFrame.size.height = self.visibleHeight - targetFrame.origin.y;
+        if (targetFrame.origin.y < menuHeight) {
+            /// 文本特别长，menu显示在文本正中间
+            if (self.visibleHeight - targetFrame.origin.y - targetFrame.size.height < menuHeight) {
+                targetFrame.origin.y = targetFrame.origin.y + (self.visibleHeight - targetFrame.origin.y) / 2.0;
+            }
+        } else {
+            targetFrame.size.height = MIN(self.visibleHeight - targetFrame.origin.y, targetFrame.size.height);
+        }
     }
     targetFrame.origin.y = ceil(targetFrame.origin.y);
     self.targetViewFrame = targetFrame;
