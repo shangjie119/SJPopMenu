@@ -332,7 +332,7 @@ static SJPopMenu *menu = nil;
     CGFloat menuHeight = self.menuSize.height + kStatusbarHeight;
     if (targetFrame.origin.y < 0) {
         /// 先把上半部分移除
-        targetFrame.size.height += y;
+        targetFrame.size.height += targetFrame.origin.y;
         targetFrame.origin.y = 0;
         targetFrame.size.height = MIN(self.visibleHeight, targetFrame.size.height);
     } else {
