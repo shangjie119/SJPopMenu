@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJPopMenu'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'A short description of SJPopMenu.'
 
 # This description is used to generate tags and improve search results.
